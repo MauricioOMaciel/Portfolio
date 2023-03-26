@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  
+
+  body {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+  }
+
+  .botao-sobre-mim {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botao-sobre-mim:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+  
+  #area-oculta {
+    display:none;
+ }
+ 
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .top-navegation {
+    float: right;
+  }
+  
+  nav {
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  div .Habilidades h1 {
+    font-size: 20px;
+  }
+  
+  .eu1 {
+    text-align: center;
+  }
+  
+  .main-img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .img-section {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .img-container {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .img-container {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-container img {
+    display: block;
+}
+
+.img-container span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div div {
+    margin-right: 20px;
+}
+
+footer div img {
+    display: block;
+}
+
+footer p {
+    margin: 0;
+}
