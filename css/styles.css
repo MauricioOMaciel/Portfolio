@@ -3,16 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: white;
   }
 
   
 
   body {
     background-color: black;
-    background-image: url(https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(https://media.istockphoto.com/id/1370858067/vector/neutral-abstract-background-minimal-poster-template-with-diagonal-shapes-calm-design-with.jpg?s=612x612&w=0&k=20&c=18U2vCQ0oVYOi0uBiGUEGWaUWf4dgHKCURaJvRssIGI=);
     font-family: Arial, sans-serif;
-    color: #ffffff;
+    color: white;
     line-height: 1.5;
   }
   
